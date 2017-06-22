@@ -1,5 +1,6 @@
-﻿  Board.cpp
+Board.cpp
 c:\users\nico\documents\globant\proyectos\tetrisbootcamp\board\board.h(4): error C2146: error de sintaxis: falta ':' delante del identificador 'board'
 c:\users\nico\documents\globant\proyectos\tetrisbootcamp\board\board.h(4): error C2334: símbolos (token) inesperados delante de '{'; se pasará por alto el cuerpo de función aparente
 c:\users\nico\documents\globant\proyectos\tetrisbootcamp\board\board.cpp(6): error C2600: 'Board::Board': no se puede definir una función miembro especial generada por el compilador (se debe declarar primero en la clase)
 c:\users\nico\documents\globant\proyectos\tetrisbootcamp\board\board.cpp(11): error C2600: 'Board::~Board': no se puede definir una función miembro especial generada por el compilador (se debe declarar primero en la clase)
+
