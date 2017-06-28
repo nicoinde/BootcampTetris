@@ -1,0 +1,18 @@
+﻿  Main.cpp
+  GestorVentana.cpp
+  Board.cpp
+  App.cpp
+  Generando código...
+App.obj : error LNK2019: símbolo externo "public: __thiscall Main::~Main(void)" (??1Main@@QAE@XZ) sin resolver al que se hace referencia en la función "void __cdecl `dynamic atexit destructor for 'game''(void)" (??__Fgame@@YAXXZ)
+Board.obj : error LNK2019: símbolo externo "public: int __thiscall Tetromino::getType(void)" (?getType@Tetromino@@QAEHXZ) sin resolver al que se hace referencia en la función "bool __cdecl asentar(class Board &,class Tetromino &,int,int)" (?asentar@@YA_NAAVBoard@@AAVTetromino@@HH@Z)
+Board.obj : error LNK2019: símbolo externo "public: int * * __thiscall Board::getTablero(void)" (?getTablero@Board@@QAEPAPAHXZ) sin resolver al que se hace referencia en la función "bool __cdecl asentar(class Board &,class Tetromino &,int,int)" (?asentar@@YA_NAAVBoard@@AAVTetromino@@HH@Z)
+Board.obj : error LNK2019: símbolo externo "public: void __thiscall Board::setTablero(int * *)" (?setTablero@Board@@QAEXPAPAH@Z) sin resolver al que se hace referencia en la función "bool __cdecl asentar(class Board &,class Tetromino &,int,int)" (?asentar@@YA_NAAVBoard@@AAVTetromino@@HH@Z)
+Main.obj : error LNK2019: símbolo externo "public: __thiscall GestorVentana::GestorVentana(void)" (??0GestorVentana@@QAE@XZ) sin resolver al que se hace referencia en la función "void __cdecl `dynamic initializer for 'gestor''(void)" (??__Egestor@@YAXXZ)
+Main.obj : error LNK2019: símbolo externo "public: __thiscall GestorVentana::~GestorVentana(void)" (??1GestorVentana@@QAE@XZ) sin resolver al que se hace referencia en la función "void __cdecl `dynamic atexit destructor for 'gestor''(void)" (??__Fgestor@@YAXXZ)
+Main.obj : error LNK2019: símbolo externo "public: bool __thiscall GestorVentana::iniciarVentana(void)" (?iniciarVentana@GestorVentana@@QAE_NXZ) sin resolver al que se hace referencia en la función "public: __thiscall Main::Main(void)" (??0Main@@QAE@XZ)
+Main.obj : error LNK2019: símbolo externo "public: __thiscall Tetromino::Tetromino(void)" (??0Tetromino@@QAE@XZ) sin resolver al que se hace referencia en la función "public: __thiscall TetrominoJ::TetrominoJ(void)" (??0TetrominoJ@@QAE@XZ)
+TetrominoI.obj : error LNK2001: símbolo externo "public: __thiscall Tetromino::Tetromino(void)" (??0Tetromino@@QAE@XZ) sin resolver
+Main.obj : error LNK2001: símbolo externo "public: virtual int * * __thiscall Tetromino::cargarForma(void)" (?cargarForma@Tetromino@@UAEPAPAHXZ) sin resolver
+TetrominoI.obj : error LNK2001: símbolo externo "public: virtual int * * __thiscall Tetromino::cargarForma(void)" (?cargarForma@Tetromino@@UAEPAPAHXZ) sin resolver
+TetrominoI.obj : error LNK2019: símbolo externo "public: int __thiscall Tetromino::getCurrentPos(void)" (?getCurrentPos@Tetromino@@QAEHXZ) sin resolver al que se hace referencia en la función "public: virtual int * * __thiscall TetrominoI::cargarForma(void)" (?cargarForma@TetrominoI@@UAEPAPAHXZ)
+C:\Users\Nico\Documents\Globant\Proyectos\TetrisBootcamp\Tetris\Debug\Tetris.exe : fatal error LNK1120: 10 externos sin resolver
