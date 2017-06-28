@@ -2,4 +2,5 @@
 Source code for Tetris - C++
 
 
-Diseño: por determinar
+Diseño: en la carpeta Diseño
+
