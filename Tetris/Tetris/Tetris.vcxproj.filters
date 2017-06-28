@@ -13,112 +13,23 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Archivos de código fuente\App">
-      <UniqueIdentifier>{280ec4fa-2ae5-47b4-b74a-bd20c2c969b5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Archivos de código fuente\Main">
-      <UniqueIdentifier>{99d0f7ef-b428-4748-a64e-78d638d02a52}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Archivos de código fuente\Board">
-      <UniqueIdentifier>{6a3db93a-5a1f-4a80-86a5-93b73c3f90c9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Archivos de código fuente\Tetromino">
-      <UniqueIdentifier>{f0f61db3-fe90-49fd-a221-dbd15be34bca}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Archivos de encabezado\App">
-      <UniqueIdentifier>{c11cd069-54f2-4aec-b4b2-1b25ba32d209}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Archivos de encabezado\Main">
-      <UniqueIdentifier>{549537f4-a568-407f-9261-3c92408962cf}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Archivos de encabezado\Board">
-      <UniqueIdentifier>{1669c081-dc3e-4d7f-8bd4-014ded9ccfc4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Archivos de encabezado\Tetromino">
-      <UniqueIdentifier>{c2917cd5-be09-4160-99a6-2d8ac267f9fc}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Archivos de recursos\Assets">
       <UniqueIdentifier>{de76a05f-1c3c-48b2-9208-04ce5128bc9e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de recursos\Resources">
+      <UniqueIdentifier>{e6d4ea3a-1e3f-46dc-b951-5452a15f1000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Resources\SFML">
+      <UniqueIdentifier>{253f3c32-9d9b-4bcc-95ce-3093fdbcda32}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Tetromino.h">
-      <Filter>Archivos de encabezado\Tetromino</Filter>
-    </ClInclude>
-    <ClInclude Include="TetrominoJ.h">
-      <Filter>Archivos de encabezado\Tetromino</Filter>
-    </ClInclude>
-    <ClInclude Include="TetrominoL.h">
-      <Filter>Archivos de encabezado\Tetromino</Filter>
-    </ClInclude>
-    <ClInclude Include="App.h">
-      <Filter>Archivos de encabezado\App</Filter>
-    </ClInclude>
     <ClInclude Include="resource.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="Main.h">
-      <Filter>Archivos de encabezado\Main</Filter>
+    <ClInclude Include="Tetromino.h">
+      <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="Board.h">
-      <Filter>Archivos de encabezado\Board</Filter>
-    </ClInclude>
-    <ClInclude Include="Slot.h">
-      <Filter>Archivos de encabezado\Board</Filter>
-    </ClInclude>
-    <ClInclude Include="TetrominoI.h">
-      <Filter>Archivos de encabezado\Tetromino</Filter>
-    </ClInclude>
-    <ClInclude Include="TetrominoO.h">
-      <Filter>Archivos de encabezado\Tetromino</Filter>
-    </ClInclude>
-    <ClInclude Include="TetrominoS.h">
-      <Filter>Archivos de encabezado\Tetromino</Filter>
-    </ClInclude>
-    <ClInclude Include="TetrominoT.h">
-      <Filter>Archivos de encabezado\Tetromino</Filter>
-    </ClInclude>
-    <ClInclude Include="TetrominoZ.h">
-      <Filter>Archivos de encabezado\Tetromino</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="App.cpp">
-      <Filter>Archivos de código fuente\App</Filter>
-    </ClCompile>
-    <ClCompile Include="Tetromino.cpp">
-      <Filter>Archivos de código fuente\Tetromino</Filter>
-    </ClCompile>
-    <ClCompile Include="TetrominoJ.cpp">
-      <Filter>Archivos de código fuente\Tetromino</Filter>
-    </ClCompile>
-    <ClCompile Include="TetrominoL.cpp">
-      <Filter>Archivos de código fuente\Tetromino</Filter>
-    </ClCompile>
-    <ClCompile Include="TetrominoZ.cpp">
-      <Filter>Archivos de código fuente\Tetromino</Filter>
-    </ClCompile>
-    <ClCompile Include="TetrominoI.cpp">
-      <Filter>Archivos de código fuente\Tetromino</Filter>
-    </ClCompile>
-    <ClCompile Include="TetrominoO.cpp">
-      <Filter>Archivos de código fuente\Tetromino</Filter>
-    </ClCompile>
-    <ClCompile Include="TetrominoS.cpp">
-      <Filter>Archivos de código fuente\Tetromino</Filter>
-    </ClCompile>
-    <ClCompile Include="TetrominoT.cpp">
-      <Filter>Archivos de código fuente\Tetromino</Filter>
-    </ClCompile>
-    <ClCompile Include="Board.cpp">
-      <Filter>Archivos de código fuente\Board</Filter>
-    </ClCompile>
-    <ClCompile Include="Slot.cpp">
-      <Filter>Archivos de código fuente\Board</Filter>
-    </ClCompile>
-    <ClCompile Include="Main.cpp">
-      <Filter>Archivos de código fuente\Main</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Tetris.rc">
@@ -150,5 +61,19 @@
     <Image Include="Assets\Z.png">
       <Filter>Archivos de recursos\Assets</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Tetromino.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
